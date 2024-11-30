@@ -5,6 +5,7 @@ from nltk.corpus import stopwords
 import nltk
 import math
 from assistant import *
+from assistant import calcul_correspondance
 
 def load_data(directory):
     data_list = []
